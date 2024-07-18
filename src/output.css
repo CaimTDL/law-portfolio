@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -583,8 +579,24 @@ video {
   margin-right: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .mt-2 {
@@ -599,6 +611,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -607,12 +623,20 @@ video {
   height: 2.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
 
 .h-8 {
   height: 2rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-full {
@@ -625,6 +649,10 @@ video {
 
 .max-w-screen-md {
   max-width: 768px;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .flex-col {
@@ -661,6 +689,14 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -688,10 +724,6 @@ video {
   background-image: url('/public/bg.svg');
 }
 
-.bg-\[url\(\'\/public\/Hero\(1\)\.svg\'\)\] {
-  background-image: url('/public/Hero(1).svg');
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -699,6 +731,10 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -730,12 +766,28 @@ video {
   padding-left: 2.5rem;
 }
 
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
 
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .pt-2 {
@@ -746,12 +798,13 @@ video {
   padding-top: 5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -767,6 +820,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -814,10 +872,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:fixed {
-    position: fixed;
-  }
-
   .md\:bottom-0 {
     bottom: 0px;
   }
