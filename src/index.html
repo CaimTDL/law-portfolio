@@ -1,183 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="!scroll-smooth">
+<html lang="pt-br" class="!scroll-smooth dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
     <title>WG Advocacia</title>
   </head>
-  <body class="flex flex-col min-h-screen">
-    <div
-      class="bg-[url('/public/bg.svg')]  top-0 left-0  w-full h-full  object-cover pt-2 "
+<body class="flex flex-col min-h-screen"></body>
+  <!-- Div com background image até o topo da página -->
+  <div class="bg-[url('/public/bg.svg')] bg-cover bg-center w-full min-h-70%">
+    <header
+      class="p-1 max-w-screen-lg mx-auto rounded-xl shadow-md flex items-center justify-between space-x-4 bg-white relative text-sm md:text-base top-0"
     >
-      <header
-        class="p-1 max-w-screen-lg mx-auto rounded-xl shadow-md flex items-center justify-between space-x-4 bg-white relative text-sm md:text-base top-0"
-      >
-        <img src="../public/Logo.svg" alt="Logo" class="h-10 pl-2" />
+      <img src="../public/Logo.svg" alt="Logo" class="h-10 pl-2" />
 
-        <div class=" menu flex items-center space-x-6 text-[#1C4535] pl-10">
-          <a href="#Sobre">Sobre</a>
-          <a href="#Servicos">Serviços</a>
-          <a href="#Blog" class="text-[#1C4535]">Blog</a>
-        </div>
+      <div class="menu flex items-start space-x-6 text-[#1C4535] pl-6">
+        <a href="#Sobre">Sobre</a>
+        <a href="#Servicos">Serviços</a>
+        <a href="#Blog" class="text-[#1C4535]">Blog</a>
+      </div>
 
-        <div class="flex items-center space-x-2 text-[#1C4535] pr-4">
-          <img src="../public/Icon.svg" alt="Ícone WhatsApp" class="h-6" />
-          <a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria." class="text-[#1C4535]"
-            >(21) 99225-4337</a
-          >
-        </div>
-      </header>
-    <main
-      class="relative  flex flex-col items-center justify-center text-center px-4 pt-20"
-    >
-      <h1 class="text-white font-bold text-4xl md:text-5xl animate-fade-right delay-0">
+      <div class="flex items-center space-x-2 text-[#1C4535] pr-4">
+        <img src="../public/Icon.svg" alt="Ícone WhatsApp" class="h-4" />
+        <a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria." class="text-[#1C4535]"
+          >(21)99225-4337</a
+        >
+      </div>
+    </header>
+        <!-- Main dentro da div de fundo -->
+    <main class="relative flex flex-col items-center justify-center text-center px-4 pt-20">
+      <h1 class="text-white font-bold text-3xl sm:text-4xl md:text-5xl animate-fade-right delay-0">
         Excelência em atender você!
       </h1>
-      <p class="text-white max-w-screen-md mt-4 md:text-lg animate-fade-right delay-100 pb-8">
-        Confie seu problema aos cuidados de um advogado especializado em direito
-        das famílias, com vasta experiência em conduzir casos com sensibilidade
-        e competência, assegurando a melhor solução para você.
+      <p class="text-white max-w-screen-md mt-4 text-base sm:text-lg md:text-xl animate-fade-right delay-100 pb-8">
+        Confie seu problema aos cuidados de um advogado especializado em direito das famílias, com vasta experiência em
+        conduzir casos com sensibilidade e competência, assegurando a melhor solução para você.
       </p>
-    <a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria." target="_blank" 
-    class="mt-4 mb-8 bg-[#1C4535] text-white flex items-center justify-center px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition duration-300 animate-fade-right cursor-pointer">
-    Me conte sua história
-</a>
-
-    </div>
-  </main>
-
+      <a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria." target="_blank" 
+        class="mt-4 mb-8 bg-[#1C4535] text-white flex items-center justify-center px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition duration-300 animate-fade-right cursor-pointer">
+        Me conte sua história
+      </a>
+    </main>
+  </div>
+  <!-- Section Serviços -->
   <section class="max-w-screen-lg mx-auto p-4 animate-fade-right delay-200">
-        <div class="flex  items-center ">
-            <h1 id="Servicos" class="text-[#1C4535] font-bold text-3xl  ml-6 ">A proteção dos seus direitos é a nossa prioridade!</h1>
-            <h4 class="text-lg">Oferecemos uma gama abrangente de serviços judiciais, focado em direitos da família, incluindo adoção, guarda dos filhos, partilha de bens...</h4>
-        </div>
-    </section>
+    <div class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0">
+      <h1 id="Servicos" class="text-[#1C4535] font-bold text-3xl ml-6">
+        A proteção dos seus direitos é a nossa prioridade!
+      </h1>
+      <h4 class="text-lg mt-4 md:mt-0">
+        Oferecemos uma gama abrangente de serviços judiciais, focado em direitos da família, incluindo adoção, guarda dos filhos, partilha de bens...
+      </h4>
+    </div>
+  </section>
 
-<div class="py-8 pr-14 pl-14">
-    
-    <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4 mb-6">
-        <div class="flex flex-col flex-grow animate-fade-right ">
-            <h3 class="text-[#1C4535] text-xl font-bold mb-2 ">Adoção</h3>
-            <p class="text-0000 mb-4 pr-7">A adoção é um processo legal que insere crianças e adolescentes em um novo núcleo familiar, garantindo-lhes direitos e deveres iguais aos dos filhos biológicos. Atuamos em todas as etapas do processo, desde a habilitação dos adotantes até a sentença judicial, assegurando que o procedimento seja realizado conforme a legislação vigente e respeitando o melhor interesse do adotado.</p>
-        </div>
-        <img class="self-end w-20 h-20 object-cover rounded-50%" src="/public/icon-2.svg" alt="Imagem do card">
+  <!-- Cards de Serviços -->
+  <div class="py-8 px-14 space-y-6">
+    <!-- Card Adoção -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4 animate-fade-right">
+      <div class="flex flex-col flex-grow px-4">
+        <h3 class="text-[#1C4535] text-xl font-bold mb-2">Adoção</h3>
+        <p class="text-0000 mb-4 pr-7">
+          A adoção é um processo legal que insere crianças e adolescentes em um novo núcleo familiar, garantindo-lhes direitos e deveres iguais aos dos filhos biológicos...
+        </p>
+      </div>
+      <img class="self-end w-20 h-20 object-cover rounded-full" src="/public/icon-2.svg" alt="Imagem do card">
     </div>
 
-    
-    <div class="bg-white shadow-md rounded-lg overflow-hidden p-4 flex mb-4 animate-fade-right delay-300">
-        <div class="flex flex-col flex-grow">
-            <h3 class="text-[#1C4535] text-xl font-bold mb-2 pr-6">Pensão Alimentícia</h3>
-            <p class="text-0000 mb-4">A pensão alimentícia é uma obrigação financeira que visa assegurar o sustento, educação e bem-estar de filhos menores, cônjuges ou ex-cônjuges. Esse valor é determinado com base na necessidade de quem recebe e na capacidade financeira de quem paga.</p>
-        </div>
-        <img class="self-end w-20 h-20 object-cover rounded-50%" src="/public/icon-3.svg" alt="Imagem do card">
+    <!-- Card Pensão Alimentícia -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4 animate-fade-right delay-300">
+      <div class="flex flex-col flex-grow px-4">
+        <h3 class="text-[#1C4535] text-xl font-bold mb-2">Pensão Alimentícia</h3>
+        <p class="text-0000 mb-4">
+          A pensão alimentícia é uma obrigação financeira que visa assegurar o sustento, educação e bem-estar de filhos menores...
+        </p>
+      </div>
+      <img class="self-end w-20 h-20 object-cover rounded-full" src="/public/icon-3.svg" alt="Imagem do card">
     </div>
 
-  
-    <div class="bg-white  shadow-md rounded-lg overflow-hidden p-4 flex mb-4 animate-fade-right delay-500">
-        <div class="flex flex-col flex-grow">
-            <h3 class="text-[#1C4535] text-xl font-bold mb-2 pr-6">Guarda dos Filhos</h3>
-            <p class="text-00000 mb-4">A guarda dos filhos envolve a determinação de quem será o responsável pelo cuidado e educação das crianças após a separação dos pais. O advogado atua na defesa dos interesses do cliente, seja para obter a guarda unilateral ou para negociar a guarda compartilhada, sempre buscando o melhor interesse dos menores e respeitando os direitos de ambos os genitores.</p>
-        </div>
-        <img class="self-end w-20 h-20 object-cover rounded-50%" src="/public/icon-4.svg" alt="Imagem do card">
+    <!-- Card Guarda dos Filhos -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4 animate-fade-right delay-500">
+      <div class="flex flex-col flex-grow px-4">
+        <h3 class="text-[#1C4535] text-xl font-bold mb-2">Guarda dos Filhos</h3>
+        <p class="text-00000 mb-4">
+          A guarda dos filhos envolve a determinação de quem será o responsável pelo cuidado e educação das crianças após a separação dos pais...
+        </p>
+      </div>
+      <img class="self-end w-20 h-20 object-cover rounded-full" src="/public/icon-4.svg" alt="Imagem do card">
     </div>
 
-
-    <div class="bg-white shadow-md rounded-lg overflow-hidden p-4 flex mb-4 animate-fade-right delay-700">
-        <div class="flex flex-col flex-grow">
-            <h3 class="text-[#1C4535] text-xl font-bold mb-2 pr-6">Reconhecimento e Dissolução de União Estável</h3>
-            <p class="text-00000 mb-4">O reconhecimento de união estável é o ato de formalizar a existência de uma relação conjugal perante a lei, concedendo direitos e deveres semelhantes aos do casamento. A dissolução, por sua vez, é o processo de encerrar essa união, tratando das questões patrimoniais, de guarda e de pensão alimentícia.</p>
-        </div>
-        <img id="Sobre" class="self-end w-20 h-20 object-cover rounded-50% ml-4" src="/public/icon-5.svg" alt="Imagem do card">
+    <!-- Card Reconhecimento de União Estável -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4 animate-fade-right delay-700">
+      <div class="flex flex-col flex-grow px-4">
+        <h3 class="text-[#1C4535] text-xl font-bold mb-2">Reconhecimento e Dissolução de União Estável</h3>
+        <p class="text-00000 mb-4">
+          O reconhecimento de união estável é o ato de formalizar a existência de uma relação conjugal perante a lei...
+        </p>
+      </div>
+      <img id="Sobre" class="self-end w-20 h-20 object-cover rounded-full ml-4" src="/public/icon-5.svg" alt="Imagem do card">
     </div>
-</div>
+  </div>
 
-<div  class="bg-[#1C4535] py-10 px-10 animate-fade-right delay-1000">
-  <h2 class="text-white pb-4 font-semibold ">Wagner Gomes da Silva <span class="text-[#B87224] font-light text-sm">OAB/RJ 238.210</span></h2>
-  <h1 class="text-white pb-4 font-bold text-xl">Quem lutará pelos seus direitos e esclarecerá suas responsabilidades.</h1>
-  <p class="text-white pb-5">Advogado especialista em direito das famílias, pós-graduado em advocacia cível e direito das famílias, associado ao IBDFAM.
-Atende em todo o Brasil, fazendo atendimento online ou presencial, sempre com um olhar humano para os problemas da vida, tratando cada caso como um caso único, com comprometimento, cuidado e descrição.</p>
-<a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria.">
-<button
-  class=" pt-6 flex items-center bg-[#1c4535] text-white gap-1 px-4 py-1 cursor-pointer font-semibold tracking-widest rounded-md hover:bg-green-700 duration-300 hover:gap-2 hover:translate-x-3"
->
-  Me conte sua história.
-  <svg
-    class="w-5 h-5"
-    stroke="currentColor"
-    stroke-width="1.5"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
-      stroke-linejoin="round"
-      stroke-linecap="round"
-    ></path>
-  </svg>
-</button>
-</a>
-</div>
+  <!-- Seção final com o advogado -->
+  <div class="bg-[#1C4535] py-10 px-10 animate-fade-right delay-1000 pb-4">
+    <h2 class="text-white pb-4 font-semibold">
+      Wagner Gomes da Silva <span class="text-[#B87224] font-light text-sm">OAB/RJ 238.210</span>
+    </h2>
+    <h1 class="text-white pb-4 font-bold text-xl">
+      Quem lutará pelos seus direitos e esclarecerá suas responsabilidades.
+    </h1>
+    <p class="text-white pb-5">
+      Advogado especialista em direito das famílias, pós-graduado em advocacia cível e direito das famílias, associado ao IBDFAM. Atende em todo o Brasil...
+    </p>
+    <a href="https://wa.me/5521992254337?text=Ol%C3%A1%2C%20gostaria%20de%20contar%20a%20minha%20hist%C3%B3ria.">
+      <button class="pt-6 flex items-center bg-[#1c4535] text-white gap-1 px-4 py-1 cursor-pointer font-semibold tracking-widest rounded-md hover:bg-green-700 duration-300 hover:gap-2 hover:translate-x-3">
+        Me conte sua história.
+        <svg class="w-5 h-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+      </button>
+    </a>
+  </div>
 
 <div id="Blog">
-<h1 class="text-[#1C4535] text-center text-xl font-bold pt-4 pb-4">Duvidas frequentes</h1>
 
-    <div class="flex flex-wrap -mx-4">
-    <div class="w-full md:w-1/2 px-4 mb-6">
-        <div class="bg-[#1C4535] shadow-md rounded-lg overflow-hidden flex p-4">
-            <div class="flex flex-col flex-grow animate-fade-right ">
-              <img class="self-end max-w-full max-h-full object-cover rounded-md " src="/public/adoption.svg" alt="Imagem do card">
-                <h3 class="text-white  text-xl font-bold mb-2 pt-2">Como adotar uma criança no Brasil?</h3>
-                <p class="text-white mb-4 pr-7 text-justify">A adoção é um ato de amor e entrega, mas também é um ato formal e legal. Assim para adotar uma criança no Brasil é necessário um processo judicial.O primeiro passo é ir até uma Vara da Infância e da Juventude da sua cidade ou região, com toda a documentação exigida (ato que pode ser feito pelo seu advogado).
-Depois há uma análise documental, estando tudo certo, passamos para a avaliação da equipe interprofissional, é feita uma avaliação com diversos profissionais do Poder judiciário com a intenção de conhecer as motivações e expectativas dos candidatos à adoção; analisar a realidade sociofamiliar; avaliar, por meio de uma criteriosa análise, se o postulante à adoção pode vir a receber criança/adolescente na condição de filho.
-                </p>
-            </div>
-            
-        </div>
-    </div>
-    <div class="w-full md:w-1/2 px-4 mb-6">
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4">
-            <div class="flex flex-col flex-grow animate-fade-right ">
-              <img class="self-end w-full max-h-full object-cover rounded-50%" src="/public/partnership 1.svg" alt="Imagem do card">
-                <h3 class="text-[#1C4535] text-xl font-bold mb-2 pt-2">Como faço para me divorciar?</h3>
-                <p class="text-0000 mb-4 pr-7">Quando um relacionamento chega ao fim, as vidas dos ex-cônjuges devem seguir em rumos diferentes, isso só é possível através do divórcio. Há duas maneiras de se divorciar atualmente, extrajudicial e judicial, cada uma com suas particularidades. 
-                  <h2 class="text-[#1C4535] text-xl font-semibold">Divorcio extrajudicial</h2>
-                  <p class="pt-2 pb-2">O divorcio extrajudicial, como o nome já diz, é feito fora do Poder judiciário, é feito diretamente no cartório, com o auxílio de um advogado.
-É um procedimento muito mais rápido que o divorcio judicial, porém tem alguns requisitos:
-Deve ser consensual, ou seja, os dois tem que concordar;
-Não pode haver filhos menores de idade (menores de 18 anos)ou incapazes;
-Contratar um advogado.
-</p>
-<h2 class="text-[#1C4535] text-xl font-semibold pt-2">Divorcio judicial</h2>
-<p>Neste caso o processo é um pouco mais demorado, as partes precisam de um advogado ou defensor público.
-Caso seja consensual (os dois concordem), podem ter o mesmo advogado, caso não estejam de acordo, precisam cada um constituir um advogado diferente.
-</p>
-
-</p>
-            </div>
-            
-        </div>
-    </div>
-    <div class="w-full md:w-1/2 px-4 mb-6">
-        <div class="bg-[#1C4535] shadow-md rounded-lg overflow-hidden flex p-4">
-            <div class="flex flex-col flex-grow animate-fade-right ">
-              <img class="self-end w-full h-full object-cover rounded-50%" src="/public/adoption.svg" alt="Imagem do card">
-                <h3 class="text-white text-xl font-bold mb-2">Adoção</h3>
-                <p class="text-white mb-4 pr-7">A adoção é um processo legal que insere crianças e adolescentes em um novo núcleo familiar, garantindo-lhes direitos e deveres iguais aos dos filhos biológicos. Atuamos em todas as etapas do processo, desde a habilitação dos adotantes até a sentença judicial, assegurando que o procedimento seja realizado conforme a legislação vigente e respeitando o melhor interesse do adotado.</p>
-            </div>
-            
-        </div>
-    </div>
-    <div class="w-full md:w-1/2 px-4 mb-6">
-        <div class="bg-white shadow-md rounded-lg overflow-hidden flex p-4">
-            <div class="flex flex-col flex-grow animate-fade-right ">
-                <h3 class="text-[#1C4535] text-xl font-bold mb-2">Adoção</h3>
-                <p class="text-0000 mb-4 pr-7">A adoção é um processo legal que insere crianças e adolescentes em um novo núcleo familiar, garantindo-lhes direitos e deveres iguais aos dos filhos biológicos. Atuamos em todas as etapas do processo, desde a habilitação dos adotantes até a sentença judicial, assegurando que o procedimento seja realizado conforme a legislação vigente e respeitando o melhor interesse do adotado.</p>
-            </div>
-            <img class="self-end w-20 h-20 object-cover rounded-50%" src="/public/icon-2.svg" alt="Imagem do card">
-        </div>
-    </div>
+<div class="pt-4">
+    <h1 class="text-[#1C4535]  text-center text-xl font-bold">Duvidas frequentes</h1>
 </div>
 
     <footer
